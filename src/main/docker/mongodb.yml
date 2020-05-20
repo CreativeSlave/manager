@@ -1,0 +1,8 @@
+version: '2'
+services:
+  adminplatform-mongodb:
+    image: mongo:4.2.6
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/AdminPlatform/mongodb/:/data/db/
